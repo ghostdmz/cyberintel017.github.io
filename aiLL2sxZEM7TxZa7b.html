@@ -1,0 +1,177 @@
+<html><head><base href="https://cyber-intel017.com/"></base>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Intel017 - Especialistas em OSINT e Prevenção de Fraudes Digitais</title>
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  header {
+    background-color: #0066cc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  nav {
+    background-color: #003366;
+    padding: 0.5rem;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    margin: 0 1rem;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  .hero {
+    background-color: #e6f2ff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero-text {
+    flex: 1;
+  }
+  .hero-image {
+    flex: 1;
+    text-align: right;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .service-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .contact-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .contact-form h2 {
+    margin-top: 0;
+  }
+  .contact-form form {
+    display: grid;
+    gap: 1rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .contact-form button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Cyber Intel017</h1>
+    <p>Especialistas em OSINT e Prevenção de Fraudes Digitais</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Serviços</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h2>Protegendo o seu mundo digital</h2>
+        <p>Com expertise em OSINT, prevenção de fraudes digitais e investigação criminal digital, a Cyber Intel017 está pronta para enfrentar os desafios da segurança cibernética moderna.</p>
+      </div>
+      <div class="hero-image">
+        <svg width="300" height="300" viewBox="0 0 300 300">
+          <rect width="100%" height="100%" fill="#0066cc"/>
+          <circle cx="150" cy="150" r="100" fill="#003366"/>
+          <path d="M150 70 L200 180 L100 180 Z" fill="#e6f2ff"/>
+          <text x="150" y="220" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Cyber Intel017</text>
+        </svg>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="service-card">
+        <h3>OSINT (Open-Source Intelligence)</h3>
+        <p>Utilizamos técnicas avançadas de coleta e análise de informações de fontes abertas para fornecer inteligência estratégica e tática.</p>
+      </div>
+      <div class="service-card">
+        <h3>Prevenção de Fraudes Digitais</h3>
+        <p>Desenvolvemos estratégias personalizadas para proteger sua empresa contra fraudes online, incluindo o combate ao golpe do Pix.</p>
+      </div>
+      <div class="service-card">
+        <h3>Investigação Criminal Digital</h3>
+        <p>Nossa equipe de especialistas conduz investigações digitais forenses para coletar e analisar evidências eletrônicas.</p>
+      </div>
+    </section>
+    <section id="about">
+      <h2>Sobre a Cyber Intel017</h2>
+      <p>Somos uma equipe dedicada de profissionais de segurança cibernética com vasta experiência em OSINT, prevenção de fraudes e investigação digital. Nossa missão é proteger indivíduos e organizações contra ameaças digitais em constante evolução.</p>
+    </section>
+    <section id="contact" class="contact-form">
+      <h2>Entre em Contato</h2>
+      <form action="https://cyber-intel017.com/submit-form" method="POST">
+        <input type="text" name="name" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="tel" name="phone" placeholder="Seu telefone">
+        <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Cyber Intel017. Todos os direitos reservados.</p>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.querySelector('form');
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Obrigado por entrar em contato! Retornaremos em breve.');
+        form.reset();
+      });
+    });
+  </script>
+</body></html>
